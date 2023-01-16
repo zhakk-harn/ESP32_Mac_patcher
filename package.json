@@ -1,0 +1,27 @@
+{
+  "name": "esp32_mac_patcher",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": "index.js",
+  "pkg": {
+    "targets": [
+      "node18-macos-x64",
+      "node18-macos-arm64"
+    ],
+    "outputPath": "dist"
+  },
+  "scripts": {
+    "build": "pkg .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "glob": "^8.1.0"
+  },
+  "devDependencies": {
+    "pkg": "^5.8.0"
+  }
+}
